@@ -1,0 +1,17 @@
+identity:
+  author: zernel
+  name: simple-jina
+  label:
+    en_US: simple-jina
+    zh_Hans: simple-jina
+    pt_BR: simple-jina
+  description:
+    en_US: Convert a web page into well structured Markdown
+    zh_Hans: Convert a web page into well structured Markdown
+    pt_BR: Convert a web page into well structured Markdown
+  icon: icon.svg
+tools:
+  - tools/simple-jina.yaml
+extra:
+  python:
+    source: provider/simple-jina.py

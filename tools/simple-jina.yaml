@@ -1,0 +1,30 @@
+identity:
+  name: simple-jina
+  author: zernel
+  label:
+    en_US: simple-jina
+    zh_Hans: simple-jina
+    pt_BR: simple-jina
+description:
+  human:
+    en_US: Convert a web page into well structured Markdown
+    zh_Hans: Convert a web page into well structured Markdown
+    pt_BR: Convert a web page into well structured Markdown
+  llm: Convert a web page into well structured Markdown
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+    human_description:
+      en_US: Convert a web page into well structured Markdown
+      zh_Hans: Convert a web page into well structured Markdown
+      pt_BR: Convert a web page into well structured Markdown
+    llm_description: Convert a web page into well structured Markdown
+    form: llm
+extra:
+  python:
+    source: tools/simple-jina.py

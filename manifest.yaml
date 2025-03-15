@@ -1,0 +1,39 @@
+version: 0.0.1
+type: plugin
+author: zernel
+name: simple-jina
+label:
+  en_US: simple-jina
+  ja_JP: simple-jina
+  zh_Hans: simple-jina
+  pt_BR: simple-jina
+description:
+  en_US: Convert a web page into well structured Markdown
+  ja_JP: Convert a web page into well structured Markdown
+  zh_Hans: Convert a web page into well structured Markdown
+  pt_BR: Convert a web page into well structured Markdown
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+plugins:
+  tools:
+    - provider/simple-jina.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-03-15T22:38:31.019024+08:00
+privacy: PRIVACY.md
+verified: false
