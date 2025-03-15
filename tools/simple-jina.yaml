@@ -12,18 +12,18 @@ description:
     pt_BR: Convert a web page into well structured Markdown
   llm: Convert a web page into well structured Markdown
 parameters:
-  - name: query
+  - name: url
     type: string
     required: true
     label:
-      en_US: Query string
-      zh_Hans: 查询语句
-      pt_BR: Query string
+      en_US: URL
+      zh_Hans: URL
+      pt_BR: URL
     human_description:
-      en_US: Convert a web page into well structured Markdown
-      zh_Hans: Convert a web page into well structured Markdown
-      pt_BR: Convert a web page into well structured Markdown
-    llm_description: Convert a web page into well structured Markdown
+      en_US: The URL of a webb page to convert to Markdown
+      zh_Hans: The URL of a webb page to convert to Markdown
+      pt_BR: The URL of a webb page to convert to Markdown
+    llm_description: The URL of a webb page to convert to Markdown
     form: llm
 extra:
   python:
